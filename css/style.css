@@ -1,0 +1,216 @@
+
+body{
+    font-family: sans-serif;
+    background-image: url(../img/bgk.png);
+    background-attachment: fixed;
+    margin: 0%;
+    min-height: 100vh;
+}
+
+.princilogo{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0rem;
+    background-image: url(../img/comic_background_blur.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    background-color: #1b263b;
+    position: sticky;    
+}
+
+nav ul li{
+    font-size: 1.2rem;
+    
+}
+.text{
+    padding:4rem 0 2rem 0;
+}
+
+.data{
+    padding-left: 0.5rem;
+    margin-bottom: 0.8rem;
+    
+}
+
+.foto{
+    /*background-color: #1b263bd9;*/
+    border-radius: 2rem;
+    width: fit-content;
+}
+
+
+p{
+    color: #555;
+    font-size: 1.2rem;
+}
+.texto{
+    padding-top: 1%;
+}
+
+.boton{
+    display: inline-block;
+    background: #1b263b;
+    color: #fff;
+    padding: 12px 50px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-color: #fff;
+}
+
+.boton:hover{
+    background: #374c67;
+    color: #fff;
+}
+
+
+.individuo{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    width: 30rem; 
+    height: 30rem;
+    color: white;
+}
+.individuo p{
+    color: white;
+    text-align: center;
+}
+
+.image{
+    width: 30rem; 
+    height: 30rem;
+    
+}
+
+.imagen img{
+    height: 30rem;
+    width: 30rem; 
+    object-fit: cover;  
+    transition: 0.5s ease-in-out;
+}
+.nombre{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 30rem;
+    height: 30rem;
+    opacity: 0.9;
+    visibility: hidden;
+}
+
+
+.individuo:hover .nombre{
+    visibility: visible;
+}
+.individuo:hover img{
+    transform: scale(1.1);
+}
+
+.titulo{
+    background-color: #1b263b;
+    color: #fff;
+    padding: 2rem;
+    margin: 0px;
+}
+
+footer {
+    background-color: #1b263b;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: auto;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .social-media ul li {
+    margin-right: 10px;
+  }
+  
+  .social-media ul li a {
+    color: #fff;
+  }
+  
+  .contact-info p{
+    margin: 0%;
+    color: #fff;
+  }
+
+
+  .credits {
+    text-align: center;
+  }
+  .credits p{
+    margin-top: 2%;
+    color: #fff;
+  }
+
+  .spidy{
+    margin-top: -12rem;
+    margin-bottom: -4rem;
+    height: 18rem;
+    overflow: hidden;
+    visibility: hidden;
+  }
+  .spiderman{
+    width: 10rem;
+    margin: 0 auto;
+    display: flex;
+    animation: spiderman 10s infinite;
+  }
+
+  .comititulo{
+    font-size: 5rem;
+  }
+
+  
+  @keyframes spiderman{
+    0%{
+        transform: translateY(-16rem);
+        visibility: visible;
+    }
+    60%{
+        transform: translateY(-16rem) rotate(2deg);
+        transform-origin: 50% 0%;
+    }
+    70%{
+        transform: translateY(0) rotate(-2deg);
+        transform-origin: 50% 0%;
+    }
+    80%{
+        transform: rotate(2deg);
+        transform-origin: 50% 0%;
+    }
+    90%{
+        transform: rotate(-2deg);
+        transform-origin: 50% 0%;
+    }
+    100%{
+        transform: translateY(-16rem)rotate(2deg);
+        transform-origin: 50% 0%;
+    }
+  }
+  .invitados{
+    background-color: #101828b7;
+  }

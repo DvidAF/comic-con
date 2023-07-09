@@ -1,0 +1,95 @@
+body{
+    font-family: sans-serif;
+    background-image: url(../img/bgk.png);
+    background-attachment: fixed;
+    margin: 0%;
+    min-height: 100vh;
+}
+
+.princilogo{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0rem;
+    background-image: url(../img/comic_background_blur.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    background-color: #1b263b;
+    position: sticky;
+}
+
+nav ul li{
+    font-size: 1.2rem;
+    
+}
+
+h1{
+    padding: 3rem 0rem 2rem 0rem;
+}
+
+p{
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.text{
+    padding-bottom: 5rem;
+
+}
+
+.col img{
+    padding: 5rem 3rem 3rem 3rem;
+    width: 35rem;
+}
+
+.content{
+    padding: 3% 0% 10% 0%;
+}
+
+footer {
+    background-color: #1b263b;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: auto;
+  }
+  
+  .container {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .social-media ul li {
+    margin-right: 10px;
+  }
+  
+  .social-media ul li a {
+    color: #fff;
+  }
+  
+  .contact-info p{
+    margin: 0%;
+    color: #fff;
+  }
+
+
+  .credits {
+    text-align: center;
+  }
+  .credits p{
+    margin-top: 2%;
+    color: #fff;
+  }
